@@ -14,12 +14,13 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 import withProgressBar from 'components/ProgressBar';
 
+//calc(768px + 16px * 2)
 const AppWrapper = styled.div`
-  max-width: calc(768px + 16px * 2);
+  max-width: device-width;
   margin: 0 auto;
   display: flex;
   min-height: 100%;
-  padding: 0 16px;
+  padding: 0 0px;
   flex-direction: column;
 `;
 

@@ -3,9 +3,12 @@ import styled from 'styled-components';
 import NormalImg from 'components/Img';
 
 const Img = styled(NormalImg)`
-  width: 100%;
-  margin: 0 auto;
-  display: block;
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  margin: 10px 10px;
+  float: right;
 `;
 
 export default Img;
