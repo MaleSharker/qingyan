@@ -1,7 +1,10 @@
+import React from 'react'
 import { Link } from 'react-router';
 import styled from 'styled-components';
 
-export default styled(Link)`
+
+
+const HeaderLink = styled(Link)`
   display: inline-flex;
   flex-wrap: nowrap;
   padding: 0.25em 2em;
@@ -9,7 +12,7 @@ export default styled(Link)`
   text-align: center;
   text-decoration: none;
   border-radius: 4px;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;  
   -webkit-touch-callout: none;
   user-select: none;
   cursor: pointer;
@@ -18,17 +21,14 @@ export default styled(Link)`
   font-weight: bold;
   font-size: 13px;
   border: 0px solid #41ADDD;
-  color: #ff;
+  color: #bfa69a;
   -webkit-transition: color 0.3s linear;
   -moz-transition: color 0.3s linear;
   -o-transition: color 0.3s linear;
-  
-  &:active {
-    background: #41ADDD;
-    color: #FFF;
-  }
   
   &:hover {
     color: rgba(255,255,255,1);
   }
 `;
+
+export default HeaderLink;
