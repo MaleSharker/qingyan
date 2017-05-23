@@ -18,15 +18,10 @@ export default styled(Link)`
   font-weight: bold;
   font-size: 13px;
   border: 0px solid #41ADDD;
-  color: #ff;
+  color: #bfa69a;
   -webkit-transition: color 0.3s linear;
   -moz-transition: color 0.3s linear;
   -o-transition: color 0.3s linear;
-  
-  &:active {
-    background: #41ADDD;
-    color: #FFF;
-  }
   
   &:hover {
     color: rgba(255,255,255,1);
