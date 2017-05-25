@@ -55,10 +55,10 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
             <HeaderLink onMouseOver={this.handleHoverOn.bind(this,'caizhuang')} onMouseOut={this.handleHoverOut}  to="/caizhuang">
                 <FormattedMessage {...messages.caizhuang} />
             </HeaderLink>
-            <HeaderLink to="/hufu">
+            <HeaderLink onMouseOver={this.handleHoverOn.bind(this,'hufu')} onMouseOut={this.handleHoverOut} to="/hufu">
                 <FormattedMessage {...messages.hufu} />
             </HeaderLink>
-            <HeaderLink to="/zhubao">
+            <HeaderLink onMouseOver={this.handleHoverOn.bind(this,'zhubao')} onMouseOut={this.handleHoverOut} to="/zhubao">
                 <FormattedMessage {...messages.zhubao} />
             </HeaderLink>
             <Link to="/">
